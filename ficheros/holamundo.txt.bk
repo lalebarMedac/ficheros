@@ -1,0 +1,23 @@
+Crear objeto file
+crear el fichero holamundo.txt
+mostrar por pantalla la fecha de última modificación
+renombrar a holamundo.txt.bk
+
+Objetivo: Verificar la existencia y propiedades básicas de un archivo
+          o directorio usando la clase java.io.File.
+
+Enunciado:
+Desarrolla un programa en Java que solicite al usuario la ruta de un 
+archivo o directorio. El programa debe comprobar e informar:
+  //Crear objeto
+  1. Si la ruta existe en el sistema.
+  //file.exists();
+  2. Si corresponde a un archivo o a una carpeta (directorio).
+  //if (file.isfile())
+  3. Su tamaño en bytes (si es un archivo).
+  //file.length()
+  4. Sus permisos actuales de lectura, escritura y ejecución.
+  //file.canRead();
+  //file.canWrite();
+  //file.canExecute();
+Clases Java principales: java.io.File
